@@ -1,0 +1,4 @@
+We used ls's manual and found the options that we needed to use.
+
+-l is the long-listing format
+-S is to order the files with the biggest and directories first.
