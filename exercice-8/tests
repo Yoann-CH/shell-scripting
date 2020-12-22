@@ -1,0 +1,39 @@
+At any time, hit CTRL+C to exit the script
+I have in mind a number in between 1 and 100, can you find it?
+50
+Number given by user: 50
+the number to guess is higher
+60
+Number given by user: 60
+the number to guess is higher
+80
+Number given by user: 80
+echo the number to guess is lower
+75
+Number given by user: 75
+echo the number to guess is lower
+70
+Number given by user: 70
+echo the number to guess is lower
+68
+Number given by user: 68
+echo the number to guess is lower
+67
+Number given by user: 67
+echo the number to guess is lower
+65
+Number given by user: 65
+echo the number to guess is lower
+64
+Number given by user: 64
+echo the number to guess is lower
+63
+Number given by user: 63
+echo the number to guess is lower
+62
+Number given by user: 62
+echo the number to guess is lower
+61
+Number given by user: 61
+you just found the number, it was indeed 61
+
