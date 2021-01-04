@@ -1,0 +1,2 @@
+First, we use if and -z to check if there is nothing written for the first argument.If that is the case, we use echo with an error message and an exit 1.
+In the else, we use two if for the firstname and the lastname. If there are thesame, we use echo with the message "Hello Yohanan Thomazo, have a nice day !"and exit 0.If there are not the same, we use echo with the same error message andexit 1.

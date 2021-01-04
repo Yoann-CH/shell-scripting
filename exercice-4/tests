@@ -1,0 +1,13 @@
+~/shell-scripting/exercice-4$ ./salutation.sh
+Usage: ./salutation.sh firstname lastname
+~/shell-scripting/exercice-4$ echo $?
+1
+~/shell-scripting/exercice-4$ ./salutation.sh Yohanan Thomazo
+Hello Yohanan Thomazo,have a nice day!
+~/shell-scripting/exercice-4$ echo $?
+0
+~/shell-scripting/exercice-4$ ./salutation.sh Yohanan Doe Thomazo
+Usage: ./salutation.sh firstname lastname
+~/shell-scripting/exercice-4$ echo $?
+1
+
