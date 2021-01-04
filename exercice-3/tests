@@ -1,0 +1,22 @@
+VirtualBox:~/shell-scripting/exercice-3$ ./ls_ordered_with_arguments.sh
+total 64
+-rw-r--r--  1 yoann yoann 8980 déc.   2 09:52 examples.desktop
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Bureau
+drwxrwxr-x  3 yoann yoann 4096 déc.  10 09:46 code
+drwxrwxr-x  2 yoann yoann 4096 déc.  10 18:46 cp
+drwxr-xr-x  2 yoann yoann 4096 déc.  18 11:06 Documents
+drwxrwxr-x  3 yoann yoann 4096 déc.  10 14:20 file2
+drwxrwxr-x  3 yoann yoann 4096 déc.  21 16:13 git-tutorial
+drwxr-xr-x  2 yoann yoann 4096 janv.  4 08:55 Images
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Modèles
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Musique
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Public
+drwxrwxr-x 11 yoann yoann 4096 déc.  24 10:52 shell-scripting
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Téléchargements
+drwxr-xr-x  2 yoann yoann 4096 déc.   2 09:55 Vidéos
+VirtualBox:~/shell-scripting/exercice-3$ ./ls_ordered_with_arguments.sh Documents
+total 8
+-rwxrwxr-x 1 yoann yoann 1023 déc.  15 19:37 guessing.game.py
+-rwxrwxr-x 1 yoann yoann    1 déc.  11 11:24 my_ls.sh
+-rw-rw-r-- 1 yoann yoann    0 déc.  11 11:06 my_file
+

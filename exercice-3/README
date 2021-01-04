@@ -1,0 +1,2 @@
+First, we use the "cd" command to go to the user's home folder.Also, we use the "-z" command to check if there is nothing written for the first argument.If so, we list files and directories by size with ls -lS.
+Then if the above condition is not met, we check, with the "-e" command if the file $1 exists.If so, we list the files of $1.If the conditions are not met, we use the "echo" command to display an error message to users and we use the "exit 2" command.
