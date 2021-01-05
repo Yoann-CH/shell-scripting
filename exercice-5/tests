@@ -1,0 +1,9 @@
+VirtualBox:~/shell-scripting/exercice-5$ ./salutation_advanced.sh Yohanan Thomazo
+Hello Yohanan Thomazo, have a nice day!
+VirtualBox:~/shell-scripting/exercice-5$ ./salutation_advanced.sh Yohanan Die Thomazo
+Usage: ./salutation.sh firstname lastname
+VirtualBox:~/shell-scripting/exercice-5$ ./salutation_advanced.sh Yohanan Yohanan
+firstname and lastname can't be the same!
+VirtualBox:~/shell-scripting/exercice-5$ ./salutation_advanced.sh Yoann Thomazo
+Usage: ./salutation.sh firstname lastname
+

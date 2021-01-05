@@ -1,0 +1,1 @@
+We use the same script of the exercice-4 to begin.After, we use an if for check if the first argument and the second are the same.In this case, we use an echo with the message "Firstname and lastname can't be the same!".
