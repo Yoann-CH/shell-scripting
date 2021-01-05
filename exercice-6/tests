@@ -1,0 +1,20 @@
+VirtualBox:~/shell-scripting/exercice-6$ ./my_ansible.sh
+VirtualBox:~/shell-scripting/exercice-6$ ls -R
+.:
+documents  meeting_notes.txt  my_ansible.sh
+
+./documents:
+gamez  images  work
+
+./documents/gamez:
+csgo.exe
+
+./documents/images:
+
+./documents/work:
+code  plannings
+
+./documents/work/code:
+
+./documents/work/plannings:
+april.xlsx  february.xlsx  january.xlsx  march.xlsx

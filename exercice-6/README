@@ -1,0 +1,2 @@
+In this exercice the difficulties that we encountered were in the creation of the tree but we finally found the different functions that allowed us to get there:
+-e which is used to see if the folder or the file exists already or not."If" to set the condition that the folder exists we perform the exit 0 when the folder already exists.In the else we create the folders or the files if they don't exist, without forgetting to define the path exercised.
