@@ -1,0 +1,61 @@
+VirtualBox:~/shell-scripting/exercice-7$ ./my_ansible_advanced.sh
+VirtualBox:~/shell-scripting/exercice-7$ ls -R
+.:
+documents  meeting_notes.txt  my_ansible_advanced.sh  README  tests
+
+./documents:
+gamez  images  work
+
+./documents/gamez:
+csgo.exe
+
+./documents/images:
+
+./documents/work:
+code  plannings
+
+./documents/work/code:
+
+./documents/work/plannings:
+april.xlsx  february.xlsx  january.xlsx  march.xlsx
+
+VirtualBox:~/shell-scripting/exercice-7$ ./my_ansible_advanced.sh Yohanan
+VirtualBox:~/shell-scripting/exercice-7$ ls -R
+.:
+documents  meeting_notes.txt  my_ansible_advanced.sh  README  tests
+
+./documents:
+gamez  images  work  Yohanan
+
+./documents/gamez:
+csgo.exe
+
+./documents/images:
+
+./documents/work:
+code  plannings
+
+./documents/work/code:
+
+./documents/work/plannings:
+april.xlsx  february.xlsx  january.xlsx  march.xlsx
+
+./documents/Yohanan:
+gamez  images  work
+
+./documents/Yohanan/gamez:
+csgo.exe
+
+./documents/Yohanan/images:
+
+./documents/Yohanan/work:
+code  plannings
+
+./documents/Yohanan/work/code:
+
+./documents/Yohanan/work/plannings:
+april.xlsx  february.xlsx  january.xlsx  march.xlsx
+
+VirtualBox:~/shell-scripting/exercice-7$ ./my_ansible_advanced.sh Yohanan Thomazo
+Usage: ./my_ansible_advanced.sh [username]
+
