@@ -5,7 +5,7 @@ if [ -z $1 ]
 	then
 	ls -lS
 	else
-	if  test -e $1
+	if  [ -e $1 ]
 	then
 	ls -lS $1
 	else
