@@ -1,3 +1,5 @@
+#! /bin/bash
+
 if [ -e documents ]
 	then
 	exit 0
