@@ -15,7 +15,7 @@ while (( guess != number_to_guess )); do
         then
                 echo you just found the number, it was indeed $guess
 	else
-		echo echo the number to guess is lower
+		echo the number to guess is lower
         fi
 	fi
 done
